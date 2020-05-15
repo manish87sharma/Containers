@@ -45,5 +45,5 @@ The configuration for each process is defined within the /proc directory. If you
 
 ### references
 
-    - exercise <https://www.katacoda.com/courses/container-runtimes/what-is-a-container>
-    - pgrep <https://linuxize.com/post/pgrep-command-in-linux/>
+    - [exercise] (https://www.katacoda.com/courses/container-runtimes/what-is-a-container)
+    - [pgrep] (https://linuxize.com/post/pgrep-command-in-linux/)

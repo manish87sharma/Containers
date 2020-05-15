@@ -37,4 +37,18 @@ With Docker, these namespaces can be shared using the syntax container:<containe
 > sudo ls -lha /proc/$(pgrep nginx | tail -n1)/ns | grep net
 # same output as both share common name space
 > sudo ls -lha /proc/$(pgrep redis-server)/ns | grep net
+# install ip command
+> sudo yum install net-tools
+# execute command in given namespace
+> ip netns exec <name> arp
+# List all network interfaces
+> ip netns exec <name> ip link
+# Add Network name space
+> ip netns add
+# remove network namespace
+> ip netns remove
+# list network name space
+> ip netns list
+# display routing and ARP table
+> route,arp
 ```
